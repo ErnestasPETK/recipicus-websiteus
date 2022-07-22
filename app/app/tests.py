@@ -4,7 +4,7 @@ Sample tests for the app.
 
 """
 from django.test import SimpleTestCase
-from rest_framework.test import APIClient
+from rest_framework.test import APIClient  # noqa
 
 from app import calc
 
